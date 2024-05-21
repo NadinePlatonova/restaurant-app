@@ -43,7 +43,7 @@ const Slider = () => {
         </div>
         {/* IMAGE CONTAINER */}
         <div className="w-full flex-1 relative">
-            <Image src={data[currentSlide].image} alt="" fill className="object-cover"/>
+            <Image src={data[currentSlide].image} alt="" fill sizes="100%" className="object-cover"/>
         </div>
         </div>
     )
