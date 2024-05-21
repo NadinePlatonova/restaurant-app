@@ -97,7 +97,7 @@ export const featuredProducts: Products = [
   {
     id: 5,
     title: "Jalapeño Fiesta",
-    desc: "Ignite your taste buds with a fiery kick! This burger features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce , and all the classic fixings on a toasted bun.",
+    desc: "Ignite your taste buds with a fiery kick! It features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce, and all the classic fixings on a toasted bun.",
     img: "/temporary/p5.png",
     price: 29.9,
     options: [

@@ -33,7 +33,7 @@ const Menu = () => {
           ) : (
             <Link href="/orders" onClick={() => setOpen(false)}>Orders</Link>
           )}
-          <Link href="/cart" onClick={() => setOpen(false)}>
+          <Link href="/cart" onClick={() => setOpen(false)} className="flex items-center gap-4">
             <CartIcon />
           </Link>
         </div>
