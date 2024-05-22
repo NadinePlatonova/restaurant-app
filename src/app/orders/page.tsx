@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const OrdersPage = () => {
   return (
@@ -18,27 +18,33 @@ const OrdersPage = () => {
             <td className="hidden md:block py-6 px-1">123234354546</td>
             <td className="py-6 px-1">19.07.2023</td>
             <td className="py-6 px-1">89.90</td>
-            <td className="hidden md:block py-6 px-1">Big Burger enu (2), Veggy Pizza (2), Coca Cola 1L (2)</td>
+            <td className="hidden md:block py-6 px-1">
+              Big Burger enu (2), Veggy Pizza (2), Coca Cola 1L (2)
+            </td>
             <td className="py-6 px-1">On the way (approx. 10min)...</td>
           </tr>
           <tr className="text-sm md:text-base odd:bg-gray-100">
             <td className="hidden md:block py-6 px-1">123234354546</td>
             <td className="py-6 px-1">19.07.2023</td>
             <td className="py-6 px-1">89.90</td>
-            <td className="hidden md:block py-6 px-1">Big Burger enu (2), Veggy Pizza (2), Coca Cola 1L (2)</td>
+            <td className="hidden md:block py-6 px-1">
+              Big Burger enu (2), Veggy Pizza (2), Coca Cola 1L (2)
+            </td>
             <td className="py-6 px-1">On the way (approx. 10min)...</td>
           </tr>
           <tr className="text-sm md:text-base odd:bg-gray-100">
             <td className="hidden md:block py-6 px-1">123234354546</td>
             <td className="py-6 px-1">19.07.2023</td>
             <td className="py-6 px-1">89.90</td>
-            <td className="hidden md:block py-6 px-1">Big Burger enu (2), Veggy Pizza (2), Coca Cola 1L (2)</td>
+            <td className="hidden md:block py-6 px-1">
+              Big Burger enu (2), Veggy Pizza (2), Coca Cola 1L (2)
+            </td>
             <td className="py-6 px-1">On the way (approx. 10min)...</td>
           </tr>
         </tbody>
       </table>
     </div>
-  )
-}
+  );
+};
 
-export default OrdersPage
+export default OrdersPage;
