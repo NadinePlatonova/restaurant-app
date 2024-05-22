@@ -1,9 +1,8 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from "react";
 
 const CountDown = () => {
-  
   let difference = +new Date(`07/10/2024`) - +new Date();
   const [delay, setDelay] = useState(difference);
 
@@ -26,7 +25,10 @@ const CountDown = () => {
     };
   });
   return (
-    <span className="font-bold text-5xl text-yellow-300" suppressHydrationWarning>
+    <span
+      className="font-bold text-5xl text-yellow-300"
+      suppressHydrationWarning
+    >
       {d}:{h}:{m}:{s}
     </span>
   );
